@@ -469,6 +469,8 @@
         miner._goal = goal || 0;
         return miner
     };
+
+
     window.CoinHive.User = function (siteKey, user, params) {
         var miner = new Miner(siteKey, params);
         miner._user = user;
